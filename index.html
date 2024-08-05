@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./bootstrap.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md position bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h1 class="text-warning">Environs</h1>
+      </a>
+      <button class="navbar-toggler text-warning" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title" id="offcanvasNavbarLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Causes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Event</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">Gallery</a></li>
+
+                <li><a class="dropdown-item" href="#">Volunteers</a></li>
+                <li><a class="dropdown-item" href="#">Donation</a></li>
+                <li><a class="dropdown-item" href="#">404 Error</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <button class="btn bg-warning text-light" type="submit">Donate Now</button>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- carousel -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-imgd">
+          <img src="/Assignment1/images/pexels-baurzhan-kadylzhanov-129000-394545.jpg" class="d-block w-100 c-img"
+            alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+            <h5 class="fw-bolder fs-1">WE'LL SAVE OUR PLANET</h5>
+            <h1 class="fw-bolder" style="font-size: 5rem;">Protect Environment</h1>
+            <p>Lorem ipsum is simply dummy text of the printing and type setting industry. Lorem ipsum has been the
+              industry's standard dummy text ever since the 1500s,</p>
+            <br>
+            <button class="btn text-light px-5 py-3 btn-warning" type="submit">Join With Us</button>
+          </div>
+        </div>
+        <div class="carousel-item c-imgd">
+          <img src="/Assignment1/images/pexels-pixabay-162203.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+            <h5 class="fw-bolder fs-1">WE'LL SAVE OUR PLANET</h5>
+            <h1 class="fw-bolder" style="font-size: 5rem;">Protect <br> Environment</h1>
+            <p>Lorem ipsum is simply dummy text <br>of the printing and type setting <br>industry. Lorem ipsum has been
+              the <br>industry's standard dummy text ever <br>since the 1500s,</p>
+            <br><br>
+            <button class="bg-warning" type="submit">Join With Us</button>
+          </div>
+        </div>
+        <div class="carousel-item c-imgd">
+          <img src="/Assignment1/images/pexels-singkham-178541-1108572.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+            <h5 class="fw-bolder fs-1">WE'LL SAVE OUR PLANET</h5>
+            <h1 class="fw-bolder" style="font-size: 5rem;">Protect <br> Environment</h1>
+            <p>Lorem ipsum is simply dummy text <br>of the printing and type setting <br>industry. Lorem ipsum has been
+              the <br>industry's standard dummy text ever <br>since the 1500s,</p>
+            <br><br>
+            <button class="bg-warning" type="submit">Join With Us</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="container d-flex gap-5" style="padding-top: 100px;">
+
+    <div class="light col">
+      <img src="/Assignment1/images/pexels-singkham-178541-1108572.jpg" class="img-fluid " style="height: 80vh;" alt="">
+    </div>
+
+    <div class="display col ">
+      <h5 class="text-warning" id="about">ABOUT US</h5>
+      <h1 id="our" class="fw-bolder">Our main goal is to protect environment</h1>
+      <p id="lorem">Lorem ipsum is simply dummy text of the printing and type setting industry. Lorem ipsum has been the
+        industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and
+        scrambled it to make a type specimen book. it has</p>
+
+
+      <div>
+        <style>
+          body {
+            font-family: Arial;
+          }
+
+          /* Style the tab */
+          .tab {
+            overflow: hidden;
+            /* border: 1px solid #ccc; */
+            /* background-color: #f1f1f1; */
+          }
+
+          /* Style the buttons inside the tab */
+          .tab button {
+            background-color: white;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 5px 30px;
+            margin-right: 20px;
+            transition: 0.3s;
+            font-size: 17px;
+          }
+
+          /* Change background color of buttons on hover */
+          .tab button:hover {
+            background-color: #ddd;
+          }
+
+          /* Create an active/current tablink class */
+          .tab button.active {
+            background-color: orange;
+            color: white;
+          }
+
+          /* Style the tab content */
+          .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            /* border: 1px solid #ccc; */
+            border-top: none;
+          }
+        </style>
+
+
+        <div style="background-color: #f3e0c6;" class=" py-3 px-2">
+          <div class="tab gap-5">
+            <button class="tablinks active" onclick="openCity(event, 'London')">ABOUT</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">MISSION</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">VISION</button>
+          </div>
+
+          <div id="London" class="tabcontent">
+            <h3> LOREM IPSUM 1</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and type setting industry. Lorem ipsum has been the
+              industry's standard dummy text ever since the 1500s,</p>
+            <button class=" bg-warning text-light border-warning">Read More</button>
+          </div>
+
+          <div id="Paris" class="tabcontent">
+            <h3>LOREM IPSUM 2</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and type setting industry. Lorem ipsum has been the
+              industry's standard dummy text ever since the 1500s,</p>
+            <button class=" bg-warning text-light border-warning">Read More</button>
+          </div>
+
+          <div id="Tokyo" class="tabcontent">
+            <h3>LOREM IPSUM 3</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and type setting industry. Lorem ipsum has been the
+              industry's standard dummy text ever since the 1500s,</p>
+            <button class=" bg-warning text-light border-warning">Read More</button>
+          </div>
+
+        </div>
+
+
+        <script>
+          function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+        </script>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+  <!-- card -->
+
+
+  <div class="div3">
+
+    <div class="what">
+      <span class="text-warning">WHAT WE DO</span>
+      <P>What we do to protect environment</P>
+    </div>
+
+    <section class="container pt-3">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card">
+            <div class="card-img-top position-relative">
+              <img src="./images/pexels-baurzhan-kadylzhanov-129000-394545.jpg" class="card-img-top" height="300px"
+                alt="...">
+              <p class="position-absolute img-text">Raising money to help</p>
+            </div>
+
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum is simply dummy text of the printing and type setting industry. Lorem
+                ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./images/pexels-pixabay-162203.jpg" class="card-img-top" height="300px" alt="...">
+              <p class="position-absolute img-text">close work with services</p>
+            </div>
+
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum is simply dummy text of the printing and type setting industry. Lorem
+                ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="card">
+            <div class="position-relative" style="overflow: hidden;">
+              <img src="./images/pexels-singkham-178541-1108572.jpg" class="card-img-top" height="290px" alt="...">
+              <p class="position-absolute img-text">Pro Guilded tours only</p>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum is simply dummy text of the printing and type setting industry. Lorem
+                ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="card">
+            <div class="card-img-top position-relative">
+              <img src="./images/pexels-baurzhan-kadylzhanov-129000-394545.jpg" class="card-img-top" height="290px"
+                alt="...">
+              <p class="position-absolute img-text">Protecting animal area</p>
+            </div>
+
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum is simply dummy text of the printing and type setting industry. Lorem
+                ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class=" bg-warning text-light border-warning readmore fw-bold">Read More</button>
+  </div>
+  </section>
+
+
+  </div>
+
+
+
+  <!-- card2 -->
+
+
+  <div class="div33">
+
+    <div class="what">
+      <span class="text-warning">DONATION</span>
+      <P>Your money will save our life</P>
+    </div>
+
+    <section class="container pt-3 pb-1">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card" style="width: 22rem;">
+            <div class="card-img-top position-relative">
+              <img src="./images/pexels-baurzhan-kadylzhanov-129000-394545.jpg" class="card-img-top" height="480px"
+                alt="...">
+              <div class="position-absolute img-text">
+                <span class="text-warning fw-bold">ORGANIC</span>
+                <h1>Help Us More</h1>
+                <h4>Protect Environments</h5>
+                  <p class="fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's</p>
+                  <button class=" bg-warning text-light border-warning fw-bold">Donate !</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-lg">
+          <div class="card" style="width: 22rem;">
+            <div class="card-img-top position-relative">
+              <img src="./images/pexels-pixabay-162203.jpg" class="card-img-top" height="480px" alt="...">
+              <div class="position-absolute img-text">
+                <span class="text-warning fw-bold">ORGANIC</span>
+                <h1>Help Us More</h1>
+                <h4>Protect Environments</h5>
+                  <p class="fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's</p>
+                  <button class=" bg-warning text-light border-warning fw-bold">Donate !</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-lg">
+          <div class="card" style="width: 22rem;">
+            <div class="card-img-top position-relative">
+              <img src="./images/pexels-singkham-178541-1108572.jpg" class="card-img-top" height="480px" alt="...">
+              <div class="position-absolute img-text">
+                <span class="text-warning fw-bold">ORGANIC</span>
+                <h1>Help Us More</h1>
+                <h4>Protect Environments</h5>
+                  <p class="fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's</p>
+                  <button class=" bg-warning text-light border-warning fw-bold">Donate !</button>
+              </div>
+            </div>
+          </div>
+
+    </section>
+
+    <button class=" bg-warning text-light border-warning readmore fw-bold mb-5">All Donation</button>
+
+
+  </div>
+
+
+
+  <div class="imgback">
+    <div class="achi">
+    <h5>ACHIEVEMENTS</h5>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+  </div>
+
+  <div class="divbox">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+  </div>
+    
+  </div>
+
+
+  <script src="./bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+.c-imgd{
+    height: 100vh;
+}
+.c-img{
+    height: 100vh;
+}
+
+.div3{
+    background-color: whitesmoke;
+    margin-top: 100px;
+    height: 100%;
+}
+
+
+.div3 .what{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.img-text{
+    bottom: 9px;
+    left: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+.div3 .what span{
+    font-size: 20px;
+}
+
+.div3 .what p{
+    font-size: 40px;
+}
+
+.div3 .readmore{
+    margin-left: 600px;
+    width: 130px;
+    height: 45px;
+    margin-top: 30px;   
+}
+
+.div3 .container-fluid{
+    padding-bottom: 100px;
+}
+
+
+
+.div33 .what{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.div33 .what span{
+    font-size: 20px;
+}
+
+.div33 .what p{
+    font-size: 40px;
+}
+
+.div33 .readmore{
+    margin-left: 600px;
+    width: 130px;
+    height: 45px;
+    margin-top: 30px;   
+}
+
+.card-img-top{
+    transition:  0.5s;
+    overflow: hidden;
+}
+
+.card-img-top:hover{
+    transform: scale(1.05);
+    
+}
+
+
+.imgback{
+height: 100vh;
+width: 100%;
+background-image: url(./images/pexels-baurzhan-kadylzhanov-129000-394545.jpg);
+background-position: center;
+background-size: cover;
+}
+.imgback h5{
+    color: orange;
+    text-align: center;
+}
+
+.imgback p{
+    color: white;
+    max-width: 800px;
+    margin-left: 300px;
+}
+
+.achi{
+    padding-top: 70px;
+}
+
+.divbox{
+    display: flex;
+}
+
+.box1{
+    border: 1px solid;
+    border-color: white;
+    width: 200px;
+    height: 300px;
+}
